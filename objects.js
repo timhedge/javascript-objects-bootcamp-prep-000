@@ -1,8 +1,8 @@
 var playlist = { Soundgarden: "Superunknown"}
 
-function updatePlaylist(playlistObj, artistNameString, songTitleString)
+function updatePlaylist(playlist, artistName, songTitle)
 {
-  playlistObj[artistNameString] = songTitleString
+  playlist[artistName] = songTitle
 }
 
 function removeFromPlaylist(playlist, artistName)
